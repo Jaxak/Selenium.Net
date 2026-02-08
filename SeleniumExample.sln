@@ -1,10 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumCore", "SeleniumCore\SeleniumCore.csproj", "{73FC0F75-34C9-48B7-92CB-2DB6406ABB34}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.TestCore", "Selenium.TestCore\Selenium.TestCore.csproj", "{73FC0F75-34C9-48B7-92CB-2DB6406ABB34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageObjects", "PageObjects\PageObjects.csproj", "{60D98D50-AC54-480F-B823-EC42FC89C403}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{28F745A9-5796-45E8-8752-0AC41281ED89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTests", "SeleniumTests\SeleniumTests.csproj", "{28F745A9-5796-45E8-8752-0AC41281ED89}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selenium.POM.Abstractions", "Selenium.POM.Abstractions\Selenium.POM.Abstractions.csproj", "{6B16009C-482B-48F0-9160-435A84A9FF9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "configs", "configs", "{3C399524-8127-46F1-A20F-D8DFB22BACA6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		Directory.Packages.props = Directory.Packages.props
+		Directory.Build.props = Directory.Build.props
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,13 +24,13 @@ Global
 		{73FC0F75-34C9-48B7-92CB-2DB6406ABB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FC0F75-34C9-48B7-92CB-2DB6406ABB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FC0F75-34C9-48B7-92CB-2DB6406ABB34}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60D98D50-AC54-480F-B823-EC42FC89C403}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60D98D50-AC54-480F-B823-EC42FC89C403}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60D98D50-AC54-480F-B823-EC42FC89C403}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60D98D50-AC54-480F-B823-EC42FC89C403}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28F745A9-5796-45E8-8752-0AC41281ED89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28F745A9-5796-45E8-8752-0AC41281ED89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28F745A9-5796-45E8-8752-0AC41281ED89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28F745A9-5796-45E8-8752-0AC41281ED89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B16009C-482B-48F0-9160-435A84A9FF9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B16009C-482B-48F0-9160-435A84A9FF9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B16009C-482B-48F0-9160-435A84A9FF9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B16009C-482B-48F0-9160-435A84A9FF9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
